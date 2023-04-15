@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='shapvs 0.0.1',
+    name='shapfs',
     version='0.0.1',
     author='Jianyang Hu',
     author_email='meegohjy@gmail.com',

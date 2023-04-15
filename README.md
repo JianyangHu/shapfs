@@ -1,14 +1,14 @@
-# shapvs
+# shapfs
 
 A python package makes feature selection by calculating the Shapley value
 
-[The example of shapvs](https://github.com/JianyangHu/shapvs/blob/main/example/main.ipynb):
+[The example of shapfs](https://github.com/JianyangHu/shapfs/blob/main/example/main.ipynb):
 # Qucik usage guide
 
 ## Installation
-You can install shapvs with [pip](https://pypi.org/project/shapvs/):
+You can install shapfs with [pip](https://pypi.org/project/shapfs/):
 ```
-pip install shapvs
+pip install shapfs
 ```
 
 
@@ -46,6 +46,4 @@ fs.feature_importance_plot()
 
 fs.feature_beeswarm()
 ```
-
-
 
