@@ -39,14 +39,13 @@ Therefore, we have built a Python package for feature selection using SHAP value
 We take the data from a soccer match as an example for feature selection. This data has a total of 14 features. After using shapfs package for feature selection, we can see that 6 important variables are selected, namely Crosses, Shots_on_target, Aerial_success, Long_balls, Match_location, and Fouls. These variables are obviously the most important in soccer matches. We can use the built-in plotting functions in the shapfs package to plot the feature importance (Figure 1) and the feature beeswarm (Figure 2).
 
 
-![Figure 1](1.png)
+![The feature imprtance, where the abscissa is the name of each feature and the ordinate is the importance of each feature.](1.png)
 
 
 
-Figure 1: The feature imprtance, where the abscissa is the name of each feature and the ordinate is the importance of each feature.
 
-![Figure 2](2.png)
+![The feature beeswarm, where the variable with the larger SHAP value is the most important.](2.png)
 
-Figure 2: The feature beeswarm, where the variable with the larger SHAP value is the most important.
+
 
 # References
